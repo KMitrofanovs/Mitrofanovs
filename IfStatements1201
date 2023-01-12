@@ -1,0 +1,72 @@
+#include<iostream>
+using namespace std;
+int main() {
+	/*int catage = 1;
+	int dogage = 1;
+	cin >> catage;
+	cin >> dogage;
+	if (catage <= 20 && catage > 0) { cout << "Ok" << endl; }
+	else cout << "Unrealiastic cat age" << endl;
+	if (dogage <= 20 && dogage > 0) { cout << "Ok" << endl; }
+	else cout << "Unrealiastic dog age" << endl;*/
+
+	/*int h = 1;
+	int m = 1;
+	int a = 1;
+	cin >> h;
+	cin >> m;
+	cin >> a;
+	if (h <= 200 && h > 120) { cout << "Ok" << endl; }
+	else cout << "Unrealiastic height" << endl;
+	if (m <= 10 && m > 0) { cout << "Ok" << endl; }
+	else cout << "Unrealiastic marks" << endl;
+	if (a <= 18 && a > 6) { cout << "Ok" << endl; }
+	else cout << "Unrealiastic age" << endl;*/
+
+	/*int age = 14;
+	int pass = 2901;
+	int ch = 0;
+	int passch;
+	while (ch < 3)
+	{
+		cout << endl <<"Password: ";
+		cin >> passch;
+		if (passch == pass) {
+			cout << endl << age;
+		}
+		else { 
+			cout << endl << "Wrong password";
+			ch = ch + 1;
+			cout << endl << "Remaining attempts: " << 3 - ch;
+		}
+
+	}
+	cout << endl << "Go away, thief";*/
+
+	/*int age = 14;
+	int pass = 2901;
+	string user ="Kmitrofanovs";
+	string userch;
+	int ch = 0;
+	int passch;
+	while (ch < 3)
+	{
+		cout << "___________________________________"<<endl;
+		cout << endl << "Username: ";
+		cin >> userch;
+		cout << endl << "Password: ";
+		cin >> passch;
+		cout << "___________________________________" << endl;
+	if (passch == pass && userch == user) {
+		cout << endl << "My age: " << age << endl;
+		}
+		else {
+			cout << endl << "Wrong password or username";
+			ch = ch + 1;
+			cout << endl << "Remaining attempts: " << 3 - ch<<endl;
+		}
+
+	}
+	cout << endl << "Go away, thief";*/
+
+}
