@@ -1,0 +1,162 @@
+#include <iostream>
+using namespace std;
+/*
+1.)
+1. Pievienot iostream galvēno bibliotēku
+2. Pievienot std, lai stradātu cin un cout komandas
+3.Galvēnas funkcijas sākums
+4.Komentarijs
+5.Mainīga x inicializacija
+6.Do/while cikla sākums
+7. Izvadīt x vertību
+8. Palielināt x vertību par 1
+9. Do/while cikla beigas. Cikls stradā, kamēr x<5
+10.Atgriežam nuli
+11.Galvēnas funkcijas beigas
+2.)
+1.Pievienot iostream galvēno bibliotēku
+2. Pievienot std, lai stradātu cin un cout komandas
+3.Galvēna funkcija main()
+4.Galvēnas funkcijas sākums
+5.Mainīga x inicializacija ar vertību 20
+6.Menu 
+7.Menu sākums
+8.Kas notiek, ja x ir 10
+9.Izvadīt tekstu x ir 10 un pabeigt programu
+10.Kas notiek, ja x ir 20
+11.Izvadīt tekstu x ir 20 un pabeigt programu
+12.Kas notiek, ja x ir 30
+13.Izvadīt tekstu x ir 40 un pabeigt programu
+14.Kas notiek, ja x ir cits
+15.Izvadīt tekstu x ir cits un pabeigt programu
+16. Menu beigas
+17.Atgriežam nulli
+18.Galvēnas funkcijas beigas
+Lai dabūtu citu izvadu, vajāg 5 rindā izmainit x vertību uz vajadzīgo (10 vai 30)
+*/
+int main()
+{
+	/*int a = 1;
+	do
+	{
+		int b = 1;
+		do
+		{
+			cout<< a<<endl;
+			b = b + 1;
+
+		} while (b<=5);
+		a = a + 1;
+	} while (a<=3);*/
+
+	/*int x = 10;
+	switch (x)
+	{
+	case 10:
+		cout << "X is 10"; break;
+	case 20:
+		cout << "X is 20"; break;
+	case 30:
+		cout << "X is 30"; break;
+	default:
+		cout << "X isn't 10, 20 or 30"; break;
+	}
+	return 0;*/
+
+	/*string answ; //what should be instead of ????
+	cout << "Is this a duck? Write no or yes. " << endl;
+	cin >> answ; //what should be instead of ????
+	if (answ == "yes")  //what should be instead of ????
+	{
+		cout << "Hello duck";
+	}
+	else cout << "bye"; //what should be instead of ????
+	return 0;*/
+
+	/*int x = 1;
+	do
+	{
+		cout << x << endl;
+		x = x + 1;
+	} while (x <= 10);*/
+	/*int x = 1;
+	do
+	{
+		cout << x <<" - "<< x * x * x<<endl;
+		x = x + 1;
+	} while (x <= 10);*/
+
+	/*string myname;
+	do
+	{
+		cout << "Enter my name: ";
+		cin >> myname;
+		if (myname == "no") { cout << endl << "yes"; };
+		if (myname == "Mitrofanovs") { cout << endl << "That's my surname, son"; };
+	} while (myname != "Kirills");
+	return 0;*/
+
+	/*int a;
+	int b;
+	cout << "Ievādi divus skaitļus" << endl;
+	cin >> a;
+	cin >> b;
+	if (a > b) { cout << endl << "Lielākais skaitlis ir " << a << endl << "Mazākais skaitlis ir " << b; }
+	else if (b > a) { cout << endl << "Lielākais skaitlis ir " << b << endl << "Mazākais skaitlis ir " << a; }
+	else if (b == a) { cout << endl << "Skaitļi ir vienādi"; };
+	if (a > 0 && b > 0) { cout << endl << "Skaitļi ir pozitīvi"; }
+	else cout << endl << "Vismaz viens no skaitļiem nav pozitīvs";
+	if (!(a % 2) && !(b % 2)) { cout << endl << "Skaitļi dalas uz divi"; }
+	else cout << endl << "Vismaz viens no skaitļiem nav pāra";*/
+
+	/*int p;
+	cout << "Enter percentage ";
+	cin >> p;
+	if (p >= 90) { cout << endl << "Grade A"; }
+	else if (p >= 80) { cout << endl << "Grade B"; }
+	else if (p >= 70) { cout << endl << "Grade C"; }
+	else if (p >= 60) { cout << endl << "Grade D"; }
+	else if (p >= 40) { cout << endl << "Grade E"; }
+	else if (p < 40) { cout << endl << "Grade F"; }*/
+
+	/*int d;
+	int m;
+	cout << "Enter day number: ";
+	cin >> d;
+	if (d == 1) { cout << endl << "Monday" << endl; }
+	else if (d == 2) { cout << endl << "Tuesday" << endl; }
+	else if (d == 3) { cout << endl << "Wednesday" << endl; }
+	else if (d == 4) { cout << endl << "Thursday" << endl; }
+	else if (d == 5) { cout << endl << "Friday" << endl; }
+	else if (d == 6) { cout << endl << "Saturday" << endl; }
+	else if (d == 7) { cout << endl << "Sunday" << endl; }
+	else cout << "You are stupid. Kill yourself";
+	cout << "Enter month number: ";
+	cin >> m;
+	if (m == 1) { cout << endl << "January"; }
+	else if (m == 2) { cout << endl << "February"; }
+	else if (m == 3) { cout << endl << "March"; }
+	else if (m == 4) { cout << endl << "April"; }
+	else if (m == 5) { cout << endl << "May"; }
+	else if (m == 6) { cout << endl << "June"; }
+	else if (m == 7) { cout << endl << "July"; }
+	else if (m == 8) { cout << endl << "August"; }
+	else if (m == 9) { cout << endl << "September"; }
+	else if (m == 10) { cout << endl << "October"; }
+	else if (m == 11) { cout << endl << "November"; }
+	else if (m == 12) { cout << endl << "December"; }
+	else cout << "You are stupid. Kill yourself";*/
+
+	/*double a;
+	double b;
+	double c;
+	cout << "Enter side lengths:" << endl;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	if (a = b = c) { cout << endl << "All sides are equal"; }
+	else if (a == c || a == b || c == b) { cout << endl << "Triangle has two equal sides"; }
+	else cout << endl << "All sides are different";*/
+
+	
+}
